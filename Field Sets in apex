@@ -1,8 +1,0 @@
-<apex:page controller="CarDetailPrice">
-    <apex:form>
-        <apex:pageBlock title="Car Price Details">
-            <apex:repeat value="{$ObjectType.Car_Detail__c.fieldSets}">
-            </apex:repeat>
-        </apex:pageBlock>
-    </apex:form>
-</apex:page>
